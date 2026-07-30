@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Settings = () => {\n  return (\n    <div className="text-center">\n      <h2 className="text-2xl mb-4">Settings</h2>\n      <p className="text-gray-600">Adjust your preferences here.</p>\n      <button className="mt-4 p-2 bg-gray-400 rounded">Reset Preferences</button>\n    </div>\n  );\n};\n\nexport default Settings;
